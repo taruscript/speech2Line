@@ -2,7 +2,7 @@
 # setup
 $  pip3 install -r requirements.txt
 
-## ubuntuの場合はこれも実行
+## ubuntu or debianの場合はこれも実行 (pipの実行のときにエラーが起きたらこれをインストすれば良いのかなlinuxは)
 sudo apt install python3-pyaudio
 
 # line tokenを作るときに便利なサイト
