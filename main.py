@@ -2,6 +2,7 @@ import line_notice
 import voice
 
 
-voice.voice_recode()
-voice_result = voice.voice_recognize()
-line_notice.send_line_notify(voice_result)
+voice_class = voice.voiceFunctionsClass()
+voice_class.voice_recode()
+voice_result = voice_class.voice_recognize()
+line_notice.send(voice_result)
