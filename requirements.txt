@@ -2,3 +2,4 @@ SpeechRecognition
 requests
 python-dotenv
 PyAudio
+numpy
